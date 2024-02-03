@@ -1,0 +1,10 @@
+{
+  "name": "JUST ANOTHER TEXT EDITOR",
+  "short_name": "J.A.T.E",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": "/",
+  "description": "Text editor for note taking",
+  "background_color": "#229da3",
+  "theme_color": "#229da3"
+}
