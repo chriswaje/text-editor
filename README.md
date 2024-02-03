@@ -22,6 +22,8 @@ Webpack for the module bundler program used to bundle Javascript files
 
 https://github.com/chriswaje/text-editor (Link to GitHub repository)
 
+https://cw-text-editor-4e321809ae9a.herokuapp.com/ (Link to deployed application)
+
 ## Image(s)
 
 ![](./images/JATE.png)
