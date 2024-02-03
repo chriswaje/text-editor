@@ -19,7 +19,7 @@ export const putDb = async (content) => {
   const store = trans.objectStore('jate');
   const request = store.put({id: 1, value: content});
   const result = await request;
-  console.log('Saved to database', result.value);
+  console.log('Saved to database', result);
 };
 
 
@@ -29,9 +29,7 @@ export const getDb = async () => {
   const store = trans.objectStore('jate');
   const request = store.get(1);
   const result = await request;
-  result ? console.log(result.value) : console.log('No data found in database');
-  // if result is defined, return value; if it is null, return undefined
-  return result?.value;
+ console.log('Data retrieved', result)
 } ;
 
 initdb();
